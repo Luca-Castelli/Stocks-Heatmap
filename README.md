@@ -13,5 +13,5 @@ Build a dashboard that provides visualizations and analytics on all investible u
 - 'merge.sh' merges all the individual stock ticker files within ./stock_data/ into one combined file 'all_stocks.csv'
 - Used collected and processed data as inputs for a Tableau dashboard
 
-[link_to_dashboard](https://public.tableau.com/app/profile/luca.castelli/viz/UraniumEquities/Dashboard1?publish=yes)
+[Tableau Public Dashboard Link](https://public.tableau.com/app/profile/luca.castelli/viz/UraniumEquities/Dashboard1?publish=yes)
 ![dashboard_screenshot](demo/dashboard.PNG)
