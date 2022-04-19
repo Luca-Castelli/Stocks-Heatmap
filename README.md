@@ -1,1 +1,17 @@
-<div class='tableauPlaceholder' id='viz1650396508368' style='position: relative'><noscript><a href='#'><img alt='Uranium Equities ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ur&#47;UraniumEquities&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UraniumEquities&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ur&#47;UraniumEquities&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+## Goal
+
+To better visualize the uranium equities universe.
+
+## Idea
+
+Build a dashboard that provides visualizations and analytics on all investible uranium equities.
+
+## Solution
+
+- 'data_collection.ipynb' fetches stock price data from Yahoo Finance and outputs each individual stock ticker into a seperate CSV file in './stock_data/'
+- Within 'data_collection.ipynb' I also fetch non time-series data like market cap and company name information
+- 'merge.sh' merges all the individual stock ticker files within ./stock_data/ into one combined file 'all_stocks.csv'
+- Used collected and processed data as inputs for a Tableau dashboard
+
+[link_to_dashboard](https://public.tableau.com/app/profile/luca.castelli/viz/UraniumEquities/Dashboard1?publish=yes)
+![dashboard_screenshot](demo/dashboard.gif)
