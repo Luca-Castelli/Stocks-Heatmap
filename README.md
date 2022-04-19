@@ -14,4 +14,4 @@ Build a dashboard that provides visualizations and analytics on all investible u
 - Used collected and processed data as inputs for a Tableau dashboard
 
 [link_to_dashboard](https://public.tableau.com/app/profile/luca.castelli/viz/UraniumEquities/Dashboard1?publish=yes)
-![dashboard_screenshot](demo/dashboard.gif)
+![dashboard_screenshot](demo/dashboard.png)
